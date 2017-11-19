@@ -1,0 +1,348 @@
+ /* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*wrapper*/
+.wrapper{
+	max-width: 960px;
+	width: 100%;
+	margin: 0px auto;
+}
+/*End wrapper*/
+
+/*header*/
+header{
+    background-color: #e6e6e6 ;
+     width: :100%; 
+}
+
+header #logo{
+    float : left;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    float : right ;
+    margin-top:32px ;
+    margin-top: 29px;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    text-decoration: none ;
+    color : #4e4e4e;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    margin: 0px 10px;
+}
+
+header a:hover{
+    color: #4dc5ae;
+}
+
+.clear{
+    clear: both;
+}
+/*End Header*/
+
+/*Bannerr*/
+#banner{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+#banner img{
+   width: 100%; 
+   height: 422px; 
+}
+
+#banner #overlay{
+    position : absolute;
+    width: :100%;
+    top :150px;
+    bottom :150px;
+}
+
+#banner h1{
+    color : #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 40px;
+    margin-bottom:25px;
+}
+
+#banner p{
+    color : #ffffff;
+    font-family: "Myriad Pro";
+    font-size: 32px;
+    margin-bottom:25px;
+}
+
+#banner button{
+    text-transform: uppercase; 
+    background-color: #3f8dbf;
+    color : #ffffff;
+    font-family: "Myriad Pro";
+    padding :10px 23px;
+    border-radius: 4px;
+    font-size:  14px;
+}
+/*End Banner*/
+
+/*Content*/
+#content .content-lay{
+    float:left;
+    width:22%;
+    text-align: center;
+    margin-top: 64px;
+    margin-left: 11px;
+    margin-right: 11px;
+    color:  :#4e4e4e;
+} 
+.content-lay img{
+    width: 95px;
+}
+.content-lay h2{
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    font-family: "Myriad Pro";
+}
+
+.content-lay p{
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Myriad Pro";
+    text-align: center;
+}
+/*End Content*/
+
+/*Our Latest Work*/ 
+#our-latest{
+   margin-top:50px; 
+   border-top: 2px solid #dcdcdc;
+}
+
+#our-latest h2{
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    margin-top:50px; 
+}
+
+#our-latest .olw{
+    float: left;
+    width: 25%;
+    margin-top:22px;
+    margin-right:80px;
+}
+
+.olw img{
+    width: 315px;
+    height: 219px;
+}
+.olw h2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4e4e4e;
+    font-family: "Myriad Pro";
+}
+
+.olw h3{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Myriad Pro";
+    color: #d4d4d4;
+}
+
+.olw p{
+    width: 300px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Myriad Pro";
+    text-align: justify;
+    color: #5c5c5c;
+    
+}
+/*End Our Latest Work*/
+
+/*Quotes*/
+#quotes{
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    height: 200px; 
+}
+#quotes img{
+    margin-right: 475px;
+    margin-left: 475px;
+    margin-bottom: 10px;
+}
+#quotes blockquote{
+    margin-bottom: 100px;
+    color:#a1a1a1;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+}
+/*End Quotes*/
+
+/*News*/
+#berita{
+    width: 100%;
+    height :300px;
+    color :#6c6c6c;
+    background-color: #1c1c1c ;
+
+}
+
+#berita .news{
+    float:left;
+    width:22%;
+    text-align: justify;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: "Myriad Pro";
+}
+
+#berita .news h2{
+    color :#6c6c6c;
+    font-size: 18px;
+    margin-top :50px;
+    margin-bottom: 10px;
+    font-family: "Myriad Pro";
+}
+
+#berita .news p{
+    color :#6c6c6c;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Myriad Pro';
+}
+
+#berita .news a{
+    color :#6c6c6c;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Myriad Pro';
+}
+/*End News*/
+
+/*footer*/
+footer .wrapper{
+    border-top: 2px solid #363636;
+    padding-top: 50px;
+}
+footer{
+    padding-top: 30px;
+    height: 150px;
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    background-color: #1c1c1c ;
+    color:#757575;
+}
+/*End footer*/
